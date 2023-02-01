@@ -1,1 +1,1 @@
-# lcu-publc-web-angular-open-source
+# lcu-public-web-angular-open-source
