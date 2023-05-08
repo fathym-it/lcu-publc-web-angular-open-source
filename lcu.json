@@ -2,11 +2,20 @@
   "Package": {
     "Name": "Angular Quickstart Project - Open Source",
     "Description": "A basic template to quickly deploy an Angular app to Fathym.",
-    "Button": "Launch",
-    "Image": "https://www.fathym.com/assets/images/logo.png",
-    "PreviewImage": "https://www.fathym.com/assets/images/logo.png",
-    "SuccessType": "Project"
+    "Image": "https://www.fathym.com/img/fathym-alfresco-starter.png",
+    "PreviewImage": "https://www.fathym.com/img/alfresco-logo.png"
   },
-  "EaC": "./assets/eac.json",
-  "Parameters": "./assets/parameters.json"
+  "Configurations": {
+    "Full": {
+      "Name": "Angular Quickstart - Open Source",
+      "Description": "Angular Quickstart - Open Source",
+      "Phases": [
+        {
+          "Name": "Setup Angular",
+          "Order": 1,
+          "Asset": "angular"
+        }
+      ]
+    }
+  }
 }
