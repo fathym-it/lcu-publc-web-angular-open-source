@@ -3,7 +3,13 @@
     "Name": "Angular Quickstart Project - Open Source",
     "Description": "A basic template to quickly deploy an Angular app to Fathym.",
     "Image": "https://www.fathym.com/img/fathym-alfresco-starter.png",
-    "PreviewImage": "https://www.fathym.com/img/alfresco-logo.png"
+    "PreviewImage": "https://www.fathym.com/img/alfresco-logo.png",
+    "Intents":[
+      "Angular",
+      "Getting started",
+      "Website",
+      "Application"
+    ]
   },
   "Configurations": {
     "Full": {
