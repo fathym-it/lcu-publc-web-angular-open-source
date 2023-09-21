@@ -1,23 +1,24 @@
 {
   "Package": {
-    "Name": "Angular Quickstart Project - Open Source",
-    "Description": "A basic template to quickly deploy an Angular app to Fathym.",
+    "Name": "Angular Starter - NPM Launch",
+    "Description": "An Angular starter app deployed to Fathym via an NPM package.",
     "Image": "https://www.fathym.com/img/fathym-alfresco-starter.png",
     "PreviewImage": "https://www.fathym.com/img/alfresco-logo.png",
     "Intents":[
       "Angular",
       "Getting started",
       "Website",
-      "Application"
+      "Application",
+      "NPM"
     ]
   },
   "Configurations": {
     "Full": {
-      "Name": "Angular Quickstart - Open Source",
-      "Description": "Angular Quickstart - Open Source",
+      "Name": "Angular Starter - NPM Launch",
+      "Description": "An Angular starter app deployed to Fathym via an NPM package.",
       "Phases": [
         {
-          "Name": "Setup Angular",
+          "Name": "Setting Up Angular Starter - NPM Launch",
           "Order": 1,
           "Asset": "angular"
         }

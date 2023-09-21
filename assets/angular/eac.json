@@ -2,8 +2,8 @@
   "Applications": {
     "{{$1}}-public-web-angular-open-source": {
       "Details": {
-        "Description": "A basic starting point for sites built with Angular.",
-        "Name": "Angular Quickstart Project - Open Source"
+        "Description": "An Angular starter app deployed to Fathym via an NPM package.",
+        "Name": "Angular Starter - NPM Launch"
       },
       "LookupConfig": {
         "PathRegex": "/.*"
@@ -26,6 +26,10 @@
   },
   "Projects": {
     "{{PROJECT_LOOKUP}}": {
+      "Details": {
+        "Name": "{{#if (lookup EaC.Projects PROJECT_LOOKUP)}}{{#if Details.Name}}{{Details.Name}}{{/if}}{{else}}Angular Starter - NPM Launch{{/if}}",
+        "Description": "{{#if (lookup EaC.Projects PROJECT_LOOKUP)}}{{#if Details.Description}}{{Details.Description}}{{/if}}{{else}}An Angular starter app deployed to Fathym via an NPM package.{{/if}}"
+      },
       "ApplicationLookups": [
         "{{$1}}-public-web-angular-open-source"
       ]
